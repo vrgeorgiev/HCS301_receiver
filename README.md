@@ -4,6 +4,7 @@ Simply connect 433MHz receiver like this to pin 4 of ESP32.
 This particular receiver can work on 3.3V and 5V. So you can power it up from ESP 3.3V pin.
 ![433MHz receiver](433Mhz_receiver.jpg)
 
+```
 HSC is sending:
 Preamble: 12 high and 12 low pulses each 400uS.
 Header: 10 low pulses
@@ -19,4 +20,4 @@ S3 pressed
 S0 released
 Vlow: no
 Replay: no
-
+```
